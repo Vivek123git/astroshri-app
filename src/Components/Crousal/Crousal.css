@@ -1,0 +1,279 @@
+.know_yoursels {
+  background-image: url(../../images//g1.png);
+  width: 100%;
+}
+.parent_image_our_Astrologer img {
+  border-radius: 10px;
+}
+.best_astro {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  margin-top: 27px;
+  cursor: pointer;
+}
+.owl-theme .owl-dots {
+  display: block !important;
+}
+.service_provide {
+  color: var(--clr-primary);
+  margin-top: 15px;
+  margin-bottom: 34px;
+}
+.arrow_right {
+  left: 0 !important;
+  position: absolute !important;
+  top: 71px !important;
+  left: -62px !important;
+  font-size: 24px !important;
+  background-color: #e1e1e1 !important;
+  padding: 16px 19px !important;
+  border-radius: 50% !important;
+  color: #fff !important;
+}
+.arrow_right:hover {
+  left: 0 !important;
+  position: absolute !important;
+  top: 71px !important;
+  left: -62px !important;
+  font-size: 24px !important;
+  background-color: var(--clr-primary) !important;
+  padding: 16px 19px !important;
+  border-radius: 50% !important;
+  color: #fff !important;
+}
+.arrow_left {
+  right: 0 !important;
+  position: absolute !important;
+  top: 71px !important;
+  right: -62px !important;
+  font-size: 24px !important;
+  background-color: #e1e1e1 !important;
+  padding: 16px 19px !important;
+  border-radius: 50% !important;
+  color: #fff !important;
+}
+.arrow_left:hover {
+  right: 0 !important;
+  position: absolute !important;
+  top: 71px !important;
+  right: -62px !important;
+  font-size: 24px !important;
+  background-color: var(--clr-primary) !important;
+  padding: 16px 19px !important;
+  border-radius: 50% !important;
+  color: #fff !important;
+}
+.arrow_right_live {
+  left: 0 !important;
+  position: absolute !important;
+  top: 98px !important;
+  left: -62px !important;
+  font-size: 24px !important;
+  background-color: #e1e1e1 !important;
+  padding: 16px 19px !important;
+  border-radius: 50% !important;
+  color: #fff !important;
+}
+.arrow_right_live:hover {
+  left: 0 !important;
+  position: absolute !important;
+  top: 98px !important;
+  left: -62px !important;
+  font-size: 24px !important;
+  background-color: var(--clr-primary) !important;
+  padding: 16px 19px !important;
+  border-radius: 50% !important;
+  color: #fff !important;
+}
+.arrow_left_live {
+  right: 0 !important;
+  position: absolute !important;
+  top: 98px !important;
+  right: -62px !important;
+  font-size: 24px !important;
+  background-color: #e1e1e1 !important;
+  padding: 16px 19px !important;
+  border-radius: 50% !important;
+  color: #fff !important;
+}
+.arrow_left_live:hover {
+  right: 0 !important;
+  position: absolute !important;
+  top: 98px !important;
+  right: -62px !important;
+  font-size: 24px !important;
+  background-color: var(--clr-primary) !important;
+  padding: 16px 19px !important;
+  border-radius: 50% !important;
+  color: #fff !important;
+}
+.arrow_right_expert {
+  left: 0 !important;
+  position: absolute !important;
+  top: 98px !important;
+  left: -62px !important;
+  font-size: 24px !important;
+  background-color: #e1e1e1 !important;
+  padding: 16px 19px !important;
+  border-radius: 50% !important;
+  color: #fff !important;
+}
+.arrow_right_expert:hover {
+  left: 0 !important;
+  position: absolute !important;
+  top: 98px !important;
+  left: -62px !important;
+  font-size: 24px !important;
+  background-color: var(--clr-primary) !important;
+  padding: 16px 19px !important;
+  border-radius: 50% !important;
+  color: #fff !important;
+}
+.arrow_left_expert {
+  right: 0 !important;
+  position: absolute !important;
+  top: 98px !important;
+  right: -62px !important;
+  font-size: 24px !important;
+  background-color: #e1e1e1 !important;
+  padding: 16px 19px !important;
+  border-radius: 50% !important;
+  color: #fff !important;
+}
+.arrow_left_expert:hover {
+  right: 0 !important;
+  position: absolute !important;
+  top: 98px !important;
+  right: -62px !important;
+  font-size: 24px !important;
+  background-color: var(--clr-primary) !important;
+  padding: 16px 19px !important;
+  border-radius: 50% !important;
+  color: #fff !important;
+}
+
+@media only screen and (min-width: 301px) and (max-width: 760px) {
+  .live_astro_btn {
+    padding-bottom: 20px;
+  }
+}
+
+/* //slider_btn */
+/* .owl-carousel.owl-loaded {
+    display: block;
+    position: relative;
+  }
+  button.owl-prev span {
+    position: absolute;
+    left: 0;
+    font-size: 78px;
+    top: 28px;
+    left: -50px;
+  }
+  button.owl-next span {
+    position: absolute;
+        font-size: 78px;
+    top: 28px;
+    right: -50px;
+  }
+  .owl-theme .owl-nav [class*='owl-']:hover {
+    background: #869791;
+    color: #1e42e1 !important;
+    text-decoration: none;
+  } */
+.owl-carousel .owl-nav.disabled,
+.owl-carousel .owl-dots.disabled {
+  display: contents !important;
+}
+.best_astro img {
+  border-radius: 50%;
+  justify-content: center;
+  width: 88px !important;
+}
+/* .best_astro_live {
+  margin-top: 15px;
+} */
+.best_astro_live img {
+  border-radius: 50%;
+  justify-content: center;
+  width: 160px !important;
+  height: 153px;
+}
+
+.owl-carousel .owl-item img {
+  display: inline-table !important;
+  width: 100%;
+}
+.parent_image_our_Astrologer {
+  position: relative;
+}
+.parent_image_our_Astrologer_content {
+  position: absolute;
+  top: 26px;
+  color: #fff;
+  width: 40%;
+  font-size: 20px;
+  left: 25px;
+}
+.Card_shadoww {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+  border-radius: 8px !important;
+}
+.astro_exprence {
+  padding-top: 20px;
+  font-size: 15px;
+}
+.live_event_btn {
+  background-color: var(--clr-primary);
+  padding: 1px 8px;
+  border-radius: 4px;
+  color: #fff;
+}
+.astro_name {
+  font-size: 19px;
+  padding-top: 25px;
+}
+@media only screen and (min-width: 301px) and (max-width: 960px) {
+  .service_provide {
+    font-size: 21px;
+  }
+  .owl-theme .owl-dots {
+    display: block !important;
+  }
+  .best_astro img {
+    width: 54px !important;
+  }
+  .chatastro_heading {
+    font-weight: 400;
+    font-size: 13px;
+    color: #000;
+  }
+  .best_astro_live img {
+    border-radius: 50%;
+    justify-content: center;
+    width: 100px !important;
+    height: 100px;
+  }
+}
+
+/* ///our astro crousal responsive css */
+@media only screen and (max-width: 528px) {
+  .best_astro_live img {
+    border-radius: 50%;
+    justify-content: center;
+    width: 70px !important;
+    height: 70px !important;
+  }
+  .astro_exprence {
+    padding-top: 8px !important;
+    font-size: 13px !important;
+  }
+  .astro_name_home_crousal {
+    font-size: 15px !important;
+    margin: 0px;
+  }
+  .astro_language {
+    font-size: 14px !important;
+  }
+}

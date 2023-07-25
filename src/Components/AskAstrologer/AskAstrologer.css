@@ -1,0 +1,107 @@
+.online-status {
+    color: #0b16ed !important;
+    background-color: #fff;
+    border: 2px solid #0b16ed !important;
+  }
+  .online-status_offline {
+    color: #a21a47 !important;
+    background-color: #fff;
+    border: 2px solid #a21a3a !important;
+  }
+  .btn_chat {
+    font-size: 14px;
+    padding: 5px 35px;
+    display: block;
+    border-radius: 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all 0.3s ease-in-out;
+    outline: none;
+    float: right;
+    margin-bottom: 0;
+    /* margin-top: 86px; */
+  }
+  .total_user {
+    font-size: 10px;
+  }
+  .astro_data_data img {
+    height: 121px;
+    border-radius: 50%;
+    width: 127px;
+    padding: 3px;
+  }
+  .user_astro_name {
+    padding-left: 19px;
+    padding-top: 11px;
+  }
+  .per_mit {
+    font-size: 13px;
+  }
+  .astro_name {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .picture_profile {
+    padding: 10px;
+    background-color: orange;
+    color: #fff;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .astro_comment_section {
+    overflow-y: scroll !important;
+    height: 350px !important;
+  }
+  .signupbox {
+    background-color: #3661bb;
+    padding: 10px 3px;
+    color: #ffff;
+  }
+  .sign_up_free {
+    text-align: center;
+    padding-top: 8px;
+    font-size: 17px;
+    color: #fff;
+    float: left;
+  }
+  .sign_up_freee {
+    padding-top: 8px;
+    font-size: 17px;
+    color: #fff;
+    float: left;
+  }
+  .signup_form {
+    display: -ms-flexbox !important;
+    display: flex !important;
+    width: 100%;
+    justify-content: space-around;
+  }
+  .get_otp_btn_chat {
+    background-color: #1b305d70;
+    border: none;
+    width: 100%;
+    margin-top: 5px;
+    padding: 11px 67px;
+    border-radius: 10px;
+    font-size: 18px;
+    box-shadow: 0 0 2px 2px #fff;
+    color: #fff 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border-radius: 10px;
+  }
+  .get_otp_btn_chat:hover {
+    background-color: #1e42e1;
+  }
+  .productFilter_filterHeading {
+    font-size: 1.2rem;
+    color: rgb(var(--black));
+    margin-bottom: 7px;
+  }
+  

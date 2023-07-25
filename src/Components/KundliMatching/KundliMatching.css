@@ -1,0 +1,135 @@
+.container .row_container {
+  background-color: #fff !important;
+  border-radius: 15px;
+}
+
+.match_btn {
+  margin: auto;
+  margin-bottom: 1rem;
+  padding: 0.5rem 7rem;
+  background-color: var(--clr-primary);
+  color: #fff;
+  border-radius: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+h3.match_details {
+  font-weight: normal;
+  color: #000;
+}
+
+.match_btn:hover {
+  background-color: var(--clr-primary);
+}
+
+.name_heading {
+  display: flex;
+  align-items: center;
+  padding-left: 8px;
+  /* justify-content: center; */
+  padding: 20px;
+}
+
+.name_heading h3 {
+  display: inline;
+  margin: 0;
+  padding-left: 0.5rem;
+}
+
+.name_heading img {
+  height: 50px;
+  width: 40px;
+}
+.numerology_detail {
+  text-align: initial !important;
+}
+
+.getplace_input {
+  position: relative;
+  width: 100%;
+}
+
+.getplace_input_container {
+  background-color: #fff;
+  position: absolute;
+  height: auto;
+  padding: 0.2rem 0.5rem;
+  width: 92%;
+  max-height: 9rem;
+  overflow-y: scroll;
+  border-radius: 0.3rem;
+  z-index: 9999;
+}
+
+.getplace_input_div {
+  cursor: pointer;
+  border-bottom: 1px solid lightgray;
+  padding-top: 1rem;
+  padding-left: 0.3rem;
+}
+
+.input_for_cross {
+  position: relative;
+}
+.input_for_cross:hover .cross {
+  visibility: visible;
+}
+.cross {
+  position: absolute;
+  right: 3%;
+  top: 50%;
+  translate: 0 -50%;
+  font-weight: 600;
+  font-size: 2rem;
+  cursor: pointer;
+  visibility: hidden;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .right_side_data {
+    /* min-width: 90px !important;
+        width: 90px !important; */
+    height: 90px !important;
+  }
+
+  .getinstant {
+    padding-top: 1px;
+  }
+
+  .circle_image img {
+    height: 171px;
+    padding: 20px;
+  }
+
+  .heading_res {
+    font-size: 24px;
+  }
+
+  .left_side_data .heading h1::after {
+    content: "";
+    height: 7px;
+    width: 97px;
+    background-color: #fff;
+    position: absolute;
+    top: 100%;
+    left: 0%;
+  }
+  .match_details {
+    font-size: 12px;
+  }
+
+  .getinstant h3 {
+    margin-top: -21px;
+    line-height: 31px;
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 301px) and (max-width: 960px) {
+  .match_btn {
+    margin: 1rem;
+    width: 100%;
+    padding: 0.5rem;
+    text-align: center;
+  }
+}

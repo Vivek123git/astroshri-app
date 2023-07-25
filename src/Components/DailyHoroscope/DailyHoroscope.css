@@ -1,0 +1,236 @@
+.readMore {
+  background-color: var(--clr-primary);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 0 10px;
+  float: right;
+  font-size: 12px;
+  margin-top: 5px;
+}
+.name_horoscope {
+  font-weight: 600;
+  font-size: 15px;
+  margin-bottom: 5px;
+  text-transform: capitalize;
+  text-decoration: underline;
+  color: teal;
+  transition: all 0.3s ease-in-out;
+}
+.name_horoscope:hover {
+  text-decoration: underline;
+  color: var(--clr-primary);
+  cursor: pointer;
+}
+.left_image_horoscope {
+  width: 90px;
+  min-width: 90px;
+  height: 90px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-decoration: none;
+  color: initial;
+  transition: all 0.3s ease-in-out;
+}
+.left_image_horoscope img {
+  height: 87px;
+}
+
+/* Manish's css */
+
+.container_horoscope {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.date_select {
+  height: 5rem;
+  width: 60%;
+  /* background-color: orange; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.date_select .active {
+  background-color: var(--clr-primary);
+  color: #fff;
+}
+
+.date_select div {
+  background: #ff6f0073;
+  padding: 0.5rem 3rem;
+  border-radius: 2rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.dailyhoro_content_heading {
+  font-size: 21px;
+  color: var(--clr-primary);
+  font-weight: 400;
+}
+.dailyhoro_content {
+  color: #000;
+  font-weight: 400;
+  font-size: 19px;
+}
+
+.current_date {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  padding: 1rem 0;
+}
+
+.horescope_container {
+  grid-template-columns: repeat(6, 1fr);
+  row-gap: 20px;
+  display: grid;
+}
+
+.horoscope_div {
+  text-align: center;
+}
+
+.horoscope_div .image {
+  margin: 0 auto;
+  height: 4.5rem;
+  width: 4.5rem;
+}
+
+.horoscope_div.active_image .image {
+  color: var(--clr-primary);
+  outline: 2px solid var(--clr-primary);
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+.horoscope_div.active_image {
+  color: var(--clr-primary);
+  font-weight: 500;
+}
+
+.horoscope_div .image img {
+  height: 100%;
+  width: 100%;
+}
+
+.horoscope_div .name {
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.horoscope_div .image .active_image {
+  border: 2px solid var(--clr-primary);
+  border-radius: 50%;
+}
+.horoscope_div .active_name {
+  color: var(--clr-primary);
+  /* font-weight: bold; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.response_container {
+  padding: 1rem 3rem;
+}
+
+.response_container .suggestion {
+  color: #727272;
+  font-weight: 450;
+  font-size: 1.1rem;
+}
+
+.response_container .list {
+  padding: 2rem 0;
+}
+
+.response_container .list div {
+  padding: 0.5rem 0;
+}
+
+.box_dailay_horo {
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  font-family: var(--Roboto);
+  font-weight: 600;
+}
+.main_card_horobox {
+  display: flex;
+  justify-content: center;
+  margin-top: 23px;
+}
+.daly_horo_img {
+  display: flex;
+  justify-content: center;
+}
+.daly_horo_img img {
+  height: 90px;
+}
+h6.dailyhoroscope_name {
+  text-align: center;
+  font-weight: 800;
+}
+@media only screen and (min-width: 520px) and (max-width: 880px) {
+  .horescope_container {
+    grid-template-columns: repeat(4, 1fr) !important;
+    row-gap: 0px;
+    display: grid;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 880px) {
+  p.horescope_content {
+    font-size: 14px !important;
+  }
+  .horescope_container {
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 0px;
+    display: grid;
+  }
+  .horescope_container {
+    flex-wrap: wrap;
+  }
+  .horoscope_div {
+    height: 6rem;
+    width: 6rem;
+    margin: 13px;
+  }
+  .date_select div {
+    padding: 0.5rem 1rem;
+    margin: 2px;
+  }
+
+  element.style {
+    /* text-align: center; */
+    /* font-size: 20px; */
+  }
+  .current_date {
+    text-align: center;
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 880px) {
+  .box_dailay_horo {
+    display: grid;
+    grid-template-columns: repeat(3, auto) !important;
+  }
+}
+@media only screen and (min-width: 701px) and (max-width: 960px) {
+  .box_dailay_horo {
+    display: grid;
+    grid-template-columns: repeat(4, auto) !important;
+  }
+}
+
+
+/* .background-galaxy-img {
+  background-image: url('https://www.shutterstock.com/image-vector/modern-brown-space-boho-background-260nw-2259737253.jpg');
+  background-size: cover;
+  background-position: center;
+} */

@@ -1,0 +1,199 @@
+.add-wallet-button-submit {
+  background-color: var(--clr-primary) !important;
+  color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.padding_right_left {
+  padding: 0px;
+}
+
+.currency-card-main {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 1rem;
+}
+.ribbon {
+  position: absolute;
+  right: -5px;
+  z-index: 1;
+  overflow: hidden;
+  width: 75px;
+  height: 75px;
+  text-align: left;
+  left: -4px;
+  top: -4px;
+  transform: rotate(269deg);
+}
+.ribbon span {
+  font-size: 9px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 22px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  width: 100px;
+  display: block;
+  background: #a00;
+  background: linear-gradient(#a00, #a00);
+  box-shadow: 0 3px 10px -5px #000;
+  position: absolute;
+  top: 19px;
+  right: -21px;
+}
+.ribbon span:before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  z-index: -1;
+  border-style: solid;
+}
+.ribbon span:after {
+  right: 0;
+  border-color: #a00 #a00 #0000 #0000;
+  border-width: 3px 2px 2px 1px;
+}
+.ribbon span:after,
+.ribbon span:before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  z-index: -1;
+  border-style: solid;
+}
+
+.rupees_wallet,
+.rupees_wallet:focus,
+.rupees_wallet:hover {
+  text-decoration: none;
+  color: var(--clr-theme);
+}
+.rupees_wallet {
+  display: block;
+  cursor: pointer;
+  background-color: #fff;
+  padding: 15px 0;
+  margin-bottom: 30px;
+  font-size: 30px;
+  border-radius: 0.4rem;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+  overflow: hidden;
+  text-align: center;
+  font-weight: bold;
+  color: #1b305d;
+  border: 2px solid #1b305d;
+}
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(var(--bs-gutter-y) * -1);
+  margin-right: calc(var(--bs-gutter-x) * -0.5);
+  margin-left: calc(var(--bs-gutter-x) * -0.5);
+}
+
+.money_wallet_section {
+  padding: 91px 0 10px;
+  text-align: center;
+  background-color: #fffcd9;
+  min-height: 100vh;
+}
+.payment_detail {
+  padding-right: 13%;
+  padding-left: 13%;
+}
+._2aJip {
+  color: #535665;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 7px 10px;
+  margin: 10px 0;
+  font-weight: 500;
+  background: #ffffe4;
+  position: relative;
+  border-radius: 5px;
+  box-shadow: 0 0 4px #6e6c6c;
+}
+.pding_extra {
+  padding: 10px;
+}
+.fa-badge-percent {
+  font-size: 25px;
+  margin-top: 5px;
+}
+.fa-badge-percent:before,
+.fa-percent:before {
+  content: "";
+}
+
+/* Manish's css */
+
+.amount_field {
+  width: 64%;
+  margin: auto;
+  padding-left: 0.5rem;
+  text-align: center;
+}
+
+.amount_field h2 {
+  margin: 1rem 0;
+}
+
+.amount_input {
+  width: 100%;
+  margin: 1rem 0;
+  padding: 0.8rem 1rem;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #585656;
+  outline: none;
+  border: none;
+  box-shadow: 0 0 5px #686868;
+}
+
+.amount_input:focus,
+textarea:focus {
+  outline: none;
+  border: none;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 780px) {
+  .procced_recharge {
+    font-size: 8px !important;
+  }
+  .rupees_wallet {
+    padding: 6px 0 !important;
+    margin-bottom: 5px !important;
+  }
+  .get_otp_btn_userprofile {
+    padding: 11px 21px !important;
+    font-size: 16px !important;
+  }
+}
+@media only screen and (min-width: 301px) and (max-width: 960px) {
+  .btn_add_wallet {
+    width: 45%;
+    margin: auto;
+    background-color: var(--clr-primary);
+    border: none;
+    margin-top: 5px;
+    padding: 11px 9px;
+    border-radius: 10px;
+    font-size: 15px;
+    box-shadow: -18 0 2px 2px #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border-radius: 10px;
+  }
+}

@@ -1,0 +1,335 @@
+#of_hidden {
+  overflow: hidden;
+}
+
+/*google translate Dropdown */
+
+.Component_main_grid {
+  width: 100%;
+  font-size: 16px;
+  font-weight: 600;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+.payment_page_banner {
+  height: 400px;
+  width: 100%;
+}
+.content_padding {
+  padding-top: 4%;
+}
+.amount_save {
+  color: var(--clr-primary);
+  font-size: 12px;
+}
+/* for border of cards*/
+.Card_shadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+  border-radius: 8px !important;
+}
+.img-fluid_c {
+  width: 100%;
+}
+.casecurity_hoverrd {
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
+  transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12), 0.3s box-shadow, 0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
+
+  cursor: pointer;
+}
+.suceess_rp {
+  height: 120%;
+  width: 81%;
+  margin: auto;
+  box-sizing: border-box;
+  display: grid;
+}
+.test_client {
+  width: 16%;
+  margin: auto !important;
+}
+
+.security_hover:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+  transition: all 0.5s ease-in-out;
+}
+.best_secr img {
+  border-radius: 50%;
+  justify-content: center;
+  width: 95px !important;
+}
+.security_section_bg {
+  background-color: #eceff4 !important;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.owl-carousel.owl-loaded {
+  display: block;
+  position: relative;
+}
+button.owl-prev span {
+  position: absolute;
+  left: 0;
+  font-size: 78px;
+  top: 28px;
+  left: -50px;
+}
+button.owl-next span {
+  position: absolute;
+  font-size: 78px;
+  top: 28px;
+  right: -50px;
+}
+.owl-theme .owl-nav [class*="owl-"]:hover {
+  background: #869791;
+  color: var(--clr-primary) !important;
+  text-decoration: none;
+}
+
+.view_all_btn {
+  border: 2px solid var(--clr-primary);
+  padding: 10px 37px;
+  border-radius: 20px;
+  color: var(--clr-primary);
+  font-weight: unset;
+  margin-top: 10px;
+  font-family: var(--Roboto);
+  cursor: pointer;
+  font-weight: 600;
+}
+.section-title {
+  max-width: 625px;
+  margin: -9px auto 60px;
+  text-align: center;
+}
+section.contact_card {
+  padding: 33px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 20px 3px rgb(0 0 0 / 5%);
+  box-shadow: 0 0 20px 3px rgb(0 0 0 / 5%);
+  padding: 50px;
+  border-radius: 4px;
+  margin-block: 44px;
+}
+.navbar-expand-md .navbar-nav {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.resonsive_image img {
+  height: 400px !important;
+  width: 100% !important;
+}
+span.MuiTab-wrapper {
+  font-size: 15px;
+  font-weight: 700;
+}
+label {
+  font-weight: 400;
+}
+
+.chat_info_my_details {
+  text-decoration: none;
+  border: 1px solid #999;
+  padding: 10px 23px;
+  border-radius: 2px;
+  color: #333;
+  font-size: 14px;
+
+  line-height: 26px;
+  cursor: pointer;
+}
+.chat_info_my_details_active {
+  background: var(--clr-primary);
+  color: #fff;
+}
+.icons-color {
+  color: var(--clr-primary);
+}
+.getplace_input_registerform {
+  position: absolute;
+  background-color: #fff;
+  width: 25%;
+  max-height: 9rem;
+  overflow-y: scroll;
+  border-radius: 0.3rem;
+  z-index: 9999;
+}
+.cross_register {
+  position: absolute;
+  right: 3%;
+  top: 5%;
+  font-weight: 600;
+  font-size: 2rem;
+  cursor: pointer;
+}
+.chat_info_form_field {
+  margin-right: 20px;
+}
+.chat_info_my_details:hover {
+  background: var(--clr-primary);
+  color: #fff;
+}
+.chat_info_btn {
+  margin: 0px 0px 18px 0px;
+  padding: 0px;
+  display: inline-block;
+}
+.chat_form_field {
+  float: left;
+  padding: 5px 0px 7px 9px;
+}
+
+.cross_mark_user_info {
+  position: absolute;
+  right: 3%;
+  top: 50%;
+  translate: 0 -50%;
+  font-weight: 600;
+  font-size: 2rem;
+  cursor: pointer;
+}
+.content_fit_div {
+  width: fit-content;
+  block-size: fit-content;
+}
+.nodatafound {
+  display: flex;
+  flex-grow: 1;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 5px 5px 5px 5px #e4e4e4;
+}
+.chatform_div {
+  text-align: left;
+}
+
+.astro-card-container {
+  position: relative;
+}
+.astro-meet-btn {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.pay_now_btn {
+  background-color: var(--clr-primary);
+  color: #fff !important;
+  width: 40%;
+  margin: auto;
+  text-align: center;
+  padding: 10px 10px;
+  border-radius: 10px;
+}
+
+.astro-meet-btn-call {
+  position: absolute;
+  right: 20px;
+  bottom: 5px;
+}
+.react-tel-input .country-list {
+  /* outline: none; */
+  position: fixed !important;
+}
+
+.security_section_heading {
+  color: var(--clr-primary);
+  text-align: center;
+}
+.security_section_box {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+}
+
+/* scroll */
+.infinite-scroll-component__outerdiv .infinite-scroll-component {
+  overflow: visible !important;
+}
+
+/* for mobile view */
+@media only screen and (min-width: 801px) and (max-width: 960px) {
+  .content_padding {
+    padding-top: 18%;
+  }
+  .resonsive_image img {
+    height: 274px !important;
+    width: 100% !important;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 1200px) {
+  .navbar-expand-md .navbar-nav {
+    flex-direction: row;
+    display: inline-table !important;
+  }
+}
+@media only screen and (min-width: 301px) and (max-width: 960px) {
+  h1.banner_heading {
+    font-size: 15px;
+  }
+  .section-title h3 {
+    font-size: 1.2rem;
+  }
+  .owl-theme .owl-nav {
+    display: none;
+  }
+  .free_kundli_banner {
+    padding: 40px 16px !important;
+  }
+  .client_testionial p {
+    font-size: 15px !important;
+  }
+  .getplace_input_freekundli {
+    width: 80% !important;
+  }
+  .card_responsive {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .security_section_tittle {
+    font-size: 1.3rem;
+  }
+  .best_astro {
+    width: auto !important;
+  }
+  .security_section_heading {
+    font-size: 21px !important;
+  }
+}
+
+@media only screen and (min-width: 301px) and (max-width: 760px) {
+  .homepage_padding ::deep {
+    overflow: hidden !important;
+  }
+  .payment_page_banner {
+    height: 218px !important;
+    width: 100% !important;
+  }
+  .home_dynamic_banner img {
+    height: 270px !important;
+    width: "100%" !important;
+  }
+  .security_section_box {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+  }
+  .pay_now_btn {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 301px) and (max-width: 460px) {
+  .home_dynamic_banner img {
+    height: 190px !important;
+    width: "100%" !important;
+  }
+  .col-sm-12 {
+    padding-right: 15px !important;
+  }
+}

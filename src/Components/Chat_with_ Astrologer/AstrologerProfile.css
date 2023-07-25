@@ -1,0 +1,150 @@
+body {
+  min-height: 100vh;
+  background-color: #fafafa;
+}
+
+.containerrr {
+  max-width: 100rem;
+  margin: 0 auto;
+  padding: 0 2rem 2rem;
+}
+.verified-section-profile {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: baseline;
+}
+.security_section_profile {
+  font-size: 1rem !important;
+  text-align: initial !important;
+}
+.btn .btn_chat_profile {
+  font-size: 16px;
+  padding: -0.8rem 0.8rem;
+  padding: 6px 22px;
+  display: block;
+  /* border-radius: 10px; */
+  text-decoration: none;
+  /* text-transform: capitalize; */
+  transition: all 0.3s ease-in-out;
+  outline: none;
+  float: right;
+  margin-bottom: 0;
+  /* margin-top: 86px; */
+  border-radius: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 7px;
+}
+.heading {
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.5;
+  padding: 16px 10px;
+  color: #1a1a1a;
+}
+.heading span {
+  display: block;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  /* Compensate for excess margin on outer gallery flex items */
+  margin: -1rem -1rem;
+}
+
+.gallery-item {
+  /* Minimum width of 24rem and grow to fit available space */
+  flex: 1 0 24rem;
+  /* Margin value should be half of grid-gap value as margins on flex items don't collapse */
+  margin: 1rem;
+  box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+}
+
+.gallery-image {
+  display: block;
+  width: 100%;
+  height: 14rem;
+  object-fit: cover;
+  transition: transform 400ms ease-out;
+}
+.gallery-imagee {
+  display: block;
+  width: 100%;
+  height: 14rem;
+  object-fit: cover;
+  transition: transform 400ms ease-out;
+}
+
+.gallery-image:hover {
+  transform: scale(1.15);
+}
+.star_class {
+  display: flex !important;
+  justify-content: center !important;
+  text-align: center;
+}
+
+/*
+
+The following rule will only run if your browser supports CSS grid.
+
+Remove or comment-out the code block below to see how the browser will fall-back to flexbox styling. 
+
+*/
+
+@supports (display: grid) {
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+  }
+
+  .gallery,
+  .gallery-item {
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width: 301px) and (max-width: 960px) {
+  .about_section {
+    text-align: center;
+    margin-top: 3px;
+  }
+  .heading {
+    font-family: "Montserrat", Arial, sans-serif;
+    font-size: 1.5rem;
+    text-align: left;
+    padding: 0px 0px;
+  }
+  .about-me-text {
+    text-align: left;
+  }
+}
+@media only screen and (min-width: 460px) and (max-width: 960px) {
+  .about_section {
+    text-align: center;
+    margin-top: 3px;
+  }
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+  }
+}
+@media only screen and (min-width: 301px) and (max-width: 460px) {
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+  }
+
+  element.style {
+  }
+  .gallery-image {
+    height: 7rem !important;
+  }
+}

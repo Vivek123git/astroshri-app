@@ -1,0 +1,40 @@
+.discussed_btn {
+  background: var(--clr-primary);
+  padding: 6px;
+  color: #fff;
+  font-size: 20px;
+  position: relative;
+  top: 37px;
+  width: 88%;
+  outline: none;
+  text-align: center;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  margin: auto;
+}
+.panchang_form_section {
+  background: linear-gradient(-45deg, #ee7752, #ff6f00, #ffeb00);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  padding: 2%;
+}
+.panchang_form_item {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+}
+@media only screen and (min-width: 701px) and (max-width: 1050px) {
+  .panchang_form_item {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+  }
+}
+@media only screen and (min-width: 301px) and (max-width: 701px) {
+  .panchang_form_item {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+  }
+  .discussed_btn {
+    margin-bottom: 1rem !important;
+  }
+}

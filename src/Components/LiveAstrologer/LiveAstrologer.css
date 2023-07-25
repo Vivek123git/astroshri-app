@@ -1,0 +1,42 @@
+.liveList {
+  position: relative;
+}
+.liveList img {
+  border-radius: 10px;
+
+  object-fit: cover;
+  object-position: top;
+  width: 100%;
+  height: 442px;
+}
+/* .MuiTabs-flexContainer {
+  display: flex;
+  justify-content: center !important;
+} */
+/* .PrivateTabIndicator-colorSecondary-5 {
+  background-color: blue !important;
+} */
+.astroimage_data {
+  position: absolute;
+  top: 0;
+}
+.youtube_data {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+}
+.trucaller_img {
+  position: absolute;
+  top: -7px;
+  right: 0%;
+}
+.likveastrologer p {
+  color: #fff;
+}
+.live_astro_name {
+  text-shadow: 0 0 5px #000;
+  color: #fff;
+  font-weight: 500;
+}
+
+/* //////demo */

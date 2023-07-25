@@ -1,0 +1,392 @@
+.banner_section img {
+  height: 550px;
+  width: 100%;
+  border-radius: 17px;
+  margin-top: 13px;
+}
+.homepage_padding {
+  padding-top: 0px;
+  overflow: hidden;
+}
+
+#myDIV {
+  color: white;
+  animation: mymove 12s infinite;
+}
+
+@keyframes mymove {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.live_astro_btn {
+  padding-bottom: 32px !important;
+}
+.header_banner {
+  color: orange;
+}
+
+.home_banner_content {
+  font-size: 23px;
+  margin-top: 10px;
+}
+.home_page_banner {
+  background-image: url(../../images//HomeBanner.png);
+  background-repeat: round;
+  height: 500px;
+}
+
+.live_astrobg_banner {
+  background-color: #eceff4;
+  background-repeat: round;
+  width: 100%;
+  background-size: auto;
+  height: auto;
+}
+.live_astrobg_banner_crousal {
+  background-color: #eceff4;
+  background-repeat: round;
+  width: 100%;
+  background-size: auto;
+  height: auto;
+}
+.today_horoscope_banner {
+  background-color: #eceff4;
+  background-repeat: round;
+  width: 100%;
+  background-size: auto;
+  padding-bottom: 5%;
+}
+.client_testional_banner {
+  /* background-image: url(../../images//testimonial-bg-1.jpg); */
+  width: 100%;
+  background-size: auto;
+  padding: 0.6rem 0rem;
+  margin-bottom: 1rem;
+}
+.chatastro_heading {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.client_testimonial_card img {
+  width: 100%;
+  height: 280px;
+}
+h1.service_provide {
+  display: inline-block;
+  margin-bottom: 31px;
+}
+.client_testimonial_card {
+  position: relative;
+}
+.home_dynamic_banner img {
+  width: "100%" !important;
+  height: 460px;
+}
+.client_testionial img {
+  position: absolute;
+  top: -81px;
+  width: 150px;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  left: 36%;
+}
+.client_text {
+  color: #fff;
+  top: 34px;
+  position: absolute;
+  padding: 20px;
+  font-size: 21px;
+  text-align: center;
+}
+.cliewn_name {
+  position: absolute;
+  bottom: 29px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+}
+
+.live_astrobg_banner_content {
+  /* margin-top: 90px;
+  margin-bottom: 50px; */
+  margin-top: 30px;
+  margin-bottom: 6rem;
+}
+.live_astrobg_banner_content_card {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: 245px;
+  background-color: #fff;
+  cursor: pointer;
+}
+.home_page_banner_content {
+  margin-top: 5rem !important;
+  margin-bottom: 3rem !important;
+  display: flex !important;
+  justify-content: space-between !important;
+}
+span.welcome_heading {
+  font-size: 22px;
+}
+.astro_language {
+  font-size: 20px !important;
+}
+.view_all {
+  color: var(--clr-primary);
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 600;
+}
+.home_event {
+  background-color: var(--clr-primary);
+  padding: 20px;
+}
+.event_card {
+  background-color: #fff;
+  text-align: center;
+  border-radius: 10px;
+  padding: 15px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.carousel-caption {
+  position: absolute;
+  right: -40%;
+  bottom: 20px;
+  left: 11%;
+  z-index: 10;
+  padding-top: 34px;
+  padding-bottom: 92px;
+  color: #fff;
+  text-align: center;
+}
+span.banner_btn {
+  color: red;
+  background-image: white;
+  background-color: #fff;
+  padding: 10px 17px;
+  border-radius: 12px;
+  font-size: 24px;
+  cursor: pointer;
+}
+h2.banner_heading {
+  font-size: 49px;
+  color: #ff3366;
+}
+span.banner_content {
+  font-size: 29px;
+  color: #000;
+}
+.home_event_icons {
+  background-image: url(../../images//astropush_icons.jpg);
+}
+.home_event_icons_main {
+  height: 65px;
+  width: 65px;
+  background-position: 176px 713px;
+}
+.home_event_icons_main2 {
+  height: 65px;
+  width: 65px;
+  background-position: 528px 716px;
+}
+.home_event_icons_main3 {
+  height: 65px;
+  width: 65px;
+  background-position: 343px 713px;
+}
+.home_event_icons_main4 {
+  height: 65px;
+  width: 65px;
+  background-position: 85px 448px;
+}
+i.fa.fa-circle.pr-2 {
+  color: green;
+}
+.live_astero {
+  text-align: center !important;
+}
+.live_astero img {
+  width: 75% !important;
+  height: 148px !important;
+  border-radius: 50%;
+}
+.banner_show img {
+  width: 100%;
+}
+/* //blog section */
+.blog_box_content {
+  border-radius: 15px;
+  background-color: #fff;
+  margin-bottom: 20px;
+  box-shadow: 0 0 2px #919191;
+  display: block;
+  color: initial;
+  text-decoration: none;
+  transition: ease-in-out all 0.3s;
+  position: relative;
+  height: 400px;
+}
+.blog_section_image {
+  width: 100%;
+  border-radius: 16px 16px 0 0;
+  height: 200px;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: center;
+}
+.blog_section_image img {
+  height: 200px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.palmistory_heading h3 {
+  color: #ff7317;
+  margin-top: 20px;
+}
+.palmistory_heading p {
+  color: #fff;
+  margin-top: 20px;
+  font-size: 17px;
+}
+.home_page_sign img {
+  height: 360px;
+}
+.footer-padding {
+  padding: 0px 4% !important;
+}
+@media only screen and (min-width: 801px) and (max-width: 960px) {
+  .content_padding {
+    padding-top: 7%;
+  }
+  .box_dailay_horo {
+    display: grid;
+    grid-template-columns: repeat(4, auto) !important;
+  }
+}
+@media only screen and (min-width: 301px) and (max-width: 701px) {
+  .box_dailay_horo {
+    display: grid;
+    grid-template-columns: repeat(2, auto) !important;
+  }
+  /* .home_dynamic_banner img {
+    height: 200px !important;
+  } */
+}
+
+@media only screen and (min-width: 301px) and (max-width: 960px) {
+  .banner_section img {
+    height: 350px;
+    width: 100%;
+  }
+  .live_astero img {
+    width: 38% !important;
+    height: 134px !important;
+  }
+
+  .client_testimonial_card img {
+    width: 100%;
+    height: 235px;
+  }
+  .client_testion_p {
+    font-size: 13px;
+  }
+}
+@media only screen and (min-width: 301px) and (max-width: 760px) {
+  .content_padding {
+    padding-top: 0% !important;
+  }
+  .homepage_padding {
+    padding-top: 0px !important;
+  }
+  .home_page_banner_content {
+    margin-top: 0rem !important;
+    margin-bottom: 3rem !important;
+  }
+  .live_astrobg_banner_content_card {
+    background-color: transparent;
+  }
+  .col-3 {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  /* .home_page_sign img {
+    height: 228px;
+    margin-top: 28px;
+  } */
+  .home_banner_content {
+    font-size: 12px;
+    margin-top: 10px;
+  }
+  .live_astrobg_banner_content {
+    margin-bottom: 0px;
+  }
+  .header_banner h1 {
+    font-size: 15px;
+  }
+  .palmistory img {
+    height: 188px;
+  }
+  .palmistory_heading h3 {
+    font-size: 10px;
+  }
+  .palmistory_heading p {
+    color: #fff;
+    font-size: 8px;
+  }
+  .header_logo {
+    /* width: 121px !important; */
+    height: 35px !important;
+  }
+  .best_astro {
+    margin-top: 12px;
+  }
+  .chatastro_heading {
+    font-size: 13px;
+  }
+  .live_astrobg_banner_content {
+    margin-top: 0px;
+  }
+
+  .home_page_sign img {
+    /* height: 228px;
+    margin-top: 28px; */
+    display: none;
+  }
+  .home_page_content {
+    width: "100%";
+  }
+
+  .home_page_banner_content {
+    display: block !important;
+  }
+  .owl-theme .owl-nav {
+    display: none;
+  }
+  .palmistory img {
+    height: 84px;
+  }
+}
+
+@media only screen and (min-width: 201px) and (max-width: 800px) {
+  .today_horoscope_banner > .row > div {
+    width: 33% !important;
+  }
+  .live_astrobg_banner_content_card {
+    height: 150px !important;
+  }
+  .best_astro {
+    margin-top: 0px !important;
+  }
+  .footer-padding {
+    padding: 0px 2% !important;
+  }
+}

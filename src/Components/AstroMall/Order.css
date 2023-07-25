@@ -1,0 +1,51 @@
+.iphone {
+  background-color: #fbf6f7;
+  background-image: linear-gradient(to bottom, #fbf6f7, #fff);
+  border-radius: 2em;
+  block-size: 812px;
+  box-shadow: 0 0 1em rgba(0, 0, 0, 0.0625);
+  height: auto !important;
+  overflow: auto;
+  padding: 2em;
+}
+.form__radios {
+  display: grid;
+  grid-gap: 1em;
+  gap: 1em;
+  margin-top: 6px;
+}
+.payment_icons {
+  margin-top: 4px;
+}
+.right_order_price {
+  background-color: #fefdfe;
+  /* border-radius: 1em; */
+  box-shadow: 0 0 1em rgb(0 0 0 / 6%);
+  padding: 6px;
+}
+.form__radio {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #fefdfe;
+  border-radius: 1em;
+  -webkit-box-shadow: 0 0 1em rgb(0 0 0 / 6%);
+  box-shadow: 0 0 1em rgb(0 0 0 / 6%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1em;
+  justify-content: space-between;
+}
+.address_right {
+  padding: 16px;
+  border-radius: 4px;
+  margin-top: 5px;
+}
+
+@media only screen and (min-width: 301px) and (max-width: 760px) {
+  .address_right {
+    padding: 7px;
+    border-radius: 8px;
+  }
+}

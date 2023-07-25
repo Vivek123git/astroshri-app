@@ -1,0 +1,34 @@
+.manglik_heading {
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffff;
+  padding: 10px 0;
+  text-align: center;
+  background-color: #ff6f00;
+  border-radius: 10px;
+  margin-bottom: 2%;
+}
+.report_manglik_status {
+  height: 60px;
+  width: 60px;
+  background-color: var(--clr-primary);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  border-radius: 50%;
+  font-weight: 600;
+  color: #fff;
+}
+.name_report_manglik {
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 5px;
+}
+.male_report_manglik {
+  text-align: center;
+}
+.female_report_manglik {
+  text-align: center;
+}

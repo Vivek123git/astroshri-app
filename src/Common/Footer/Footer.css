@@ -1,0 +1,238 @@
+.footer-top {
+  padding: 10px 0 30px;
+  text-align: left;
+  background-color: var(--clr-primary);
+  color: #fff;
+}
+.footer-top h4 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+  padding-bottom: 10px;
+  position: relative;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.footer-top h4::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 70px;
+  background-color: #fff;
+  height: 2px;
+}
+.Footer_heading {
+  font-size: 17px;
+  color: #fff;
+  padding-bottom: 10px;
+  line-height: 20px;
+  font-weight: 700;
+}
+.Footer_heading_link_color {
+  background-color: #8b5024;
+
+  color: #fff;
+}
+
+.Footer_logo {
+  width: 100% !important;
+}
+
+.Footer_heading_Links {
+  font-size: 15px;
+  color: #fff;
+  font-family: var(--Roboto);
+  padding-bottom: 5px;
+  line-height: 20px;
+  cursor: pointer;
+}
+.header_link_color:hover {
+  /* opacity: 0.7; */
+  color: #1722ee;
+}
+.Footer_link_color {
+  color: blue;
+  font-size: 12px;
+}
+.Footer_link_color:hover {
+  color: skyblue;
+  font-size: 12px;
+  cursor: pointer;
+}
+.input {
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  height: 44px;
+  border: none;
+}
+
+#email {
+  width: 75%;
+  background: #fdfcfb;
+  font-family: inherit;
+  color: #737373;
+  letter-spacing: 1px;
+  text-indent: 5%;
+  border-radius: 5px 0 0 5px;
+}
+
+#submit {
+  width: 25%;
+  height: 45px;
+  background: #0c217d;
+  font-family: inherit;
+  font-weight: bold;
+  color: inherit;
+  letter-spacing: 1px;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+#submit:hover {
+  background: #d45d7d;
+}
+
+.icon {
+  /* color: #5c78ac !important;
+  font-size: 12px !important; */
+  color: #fff;
+  font-size: 14px;
+}
+
+.icon1 {
+  color: #0181b2 !important;
+  font-size: 12px !important;
+}
+
+.icon2 {
+  color: red !important;
+  font-size: 12px !important;
+}
+
+.icon3 {
+  color: #00ade1 !important;
+  font-size: 12px !important;
+}
+
+.icon4 {
+  color: pink !important;
+  font-size: 12px !important;
+}
+.header_link_color {
+  color: #555;
+  font-weight: 400 !important;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 0 17px;
+  letter-spacing: 0.5px;
+  border-radius: 4px;
+}
+.header_logo_footer {
+  width: 170px !important;
+  height: 62px !important;
+}
+.footer_social_logo {
+  width: 158 !important;
+  height: 48px !important;
+}
+.footer-newsletter-box input [placeholder] {
+  padding: 10px !important;
+  outline: none !important;
+  background-color: transparent !important;
+}
+.footer-newsletter-box button {
+  background-color: white;
+  border: none;
+}
+.header_link_color_footer_logo {
+  cursor: pointer;
+  letter-spacing: 0.5px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.allicons_footer_image_social {
+  background-image: url("../../images/Icons/allicon1.png");
+}
+.allicons_footer_image_quora {
+  background-image: url("../../images/quora.png");
+}
+.allicons_footer_image_size_facebook {
+  height: 24px;
+  width: 23px;
+  background-position: 498px 678px;
+  border-radius: 50%;
+}
+
+.allicons_footer_image_size_twitter {
+  height: 24px;
+  width: 23px;
+  background-position: 462px 678px;
+  border-radius: 50%;
+}
+.allicons_footer_image_size_youtube {
+  height: 24px;
+  width: 23px;
+  background-position: 498px 646px;
+  border-radius: 50%;
+}
+.allicons_footer_image_size_whatapp {
+  height: 24px;
+  width: 23px;
+  background-position: 561px 746px;
+  border-radius: 50%;
+}
+.allicons_footer_image_size_instagram {
+  height: 24px;
+  width: 23px;
+  background-position: 724px 878px;
+  border-radius: 50%;
+}
+
+.allicons_footer_image_size_quora {
+  height: 22px;
+  width: 21px;
+  background-position: 579px 723px;
+  border-radius: 50%;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 950px) {
+  .Footer_heading {
+    font-size: 10px;
+    color: #555;
+    padding-bottom: 10px;
+    line-height: 20px;
+    font-weight: 400;
+  }
+  .Footer_link_color {
+    color: blue;
+    font-size: 10px;
+  }
+}
+.header_logo_footer {
+  width: auto !important;
+  height: 65px !important;
+}
+@media only screen and (min-width: 301px) and (max-width: 960px) {
+  .header_logo_footer {
+    width: auto !important;
+    height: 53px !important;
+  }
+  .footer_logo_description {
+    font-size: 13px;
+  }
+  #submit {
+    width: 31%;
+  }
+}
+@media only screen and (min-width: 301px) and (max-width: 600px) {
+  .footer_social_logo {
+    width: 80% !important;
+    height: auto !important;
+  }
+}

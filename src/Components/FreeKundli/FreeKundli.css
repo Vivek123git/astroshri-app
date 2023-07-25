@@ -1,0 +1,174 @@
+.getplace_input {
+  position: relative;
+  width: 100%;
+}
+
+.getplace_input_freekundli {
+  background-color: #fff;
+  position: absolute;
+  height: auto;
+  padding: 0.2rem 0.5rem;
+  width: 25%;
+  max-height: 9rem;
+  overflow-y: scroll;
+  border-radius: 0.3rem;
+  z-index: 9999;
+}
+
+.getplace_input_div {
+  cursor: pointer;
+  border-bottom: 1px solid lightgray;
+  padding-top: 1rem;
+  padding-left: 0.3rem;
+}
+
+.input_for_cross {
+  position: relative;
+}
+.input_for_cross:hover .cross {
+  visibility: visible;
+}
+.cross {
+  position: absolute;
+  right: 3%;
+  top: 50%;
+  translate: 0 -50%;
+  font-weight: 600;
+  font-size: 2rem;
+  cursor: pointer;
+  visibility: hidden;
+}
+
+.free_kundli_banner {
+  background-image: url(../../images//banner1.png);
+}
+.freeKundli_section {
+  background: linear-gradient(-45deg, #ee7752, #1e42e1, #3661bb, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  padding: 3%;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.banner_section_header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.banner_heading h2 {
+  font-size: 20px;
+  color: white !important;
+}
+.getyourfree_kundley {
+  text-align: center;
+  font-size: 30px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.sing_image img {
+  height: 200px;
+}
+.freekundli_content {
+  padding-top: 20px;
+  text-transform: uppercase;
+  width: 50%;
+}
+.generate_horoscope_btn {
+  background-color: var(--clr-primary);
+  color: #fff;
+  font-size: 13px;
+  font-weight: 500;
+  border-radius: 10px;
+  display: flex;
+  margin: 5px auto 0;
+  transition: 0.3s ease-in-out;
+  height: 40px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+/* ///tabs */
+.table-striped tbody tr:nth-of-type(odd) {
+  background: #ff9f54 !important;
+}
+.table td,
+.table th {
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+  font-size: 17px;
+  font-weight: 700;
+  color: #454545;
+  border: none;
+}
+.birthdetail_heading {
+  background-color: var(--clr-primary);
+  color: #fff;
+  padding: 8px;
+}
+
+/* ////Download Available */
+
+.call-to-action-bg {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  background: linear-gradient(341deg, #1d1c1fd9, #0b0b0ddb), url(../../images/field.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.align-items-end {
+  align-items: flex-end !important;
+}
+.section-padding {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.section-title .title {
+  font-size: 36px;
+  font-weight: 600;
+  color: var(--clr-primary);
+  line-height: 1.2;
+  margin-top: -8px;
+}
+text-white {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
+}
+
+@media only screen and (min-width: 301px) and (max-width: 960px) {
+  .sing_image img {
+    height: 160px;
+  }
+  .freekundli_content {
+    padding-top: 0px;
+    width: 100% !important;
+  }
+  .sing_image img {
+    display: none;
+  }
+  .freeKundli_section {
+    padding: 9% 0% !important;
+  }
+  .getyourfree_kundley {
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 14px;
+  }
+  .discussed_btn {
+    top: 9px !important
+    ;
+  }
+}

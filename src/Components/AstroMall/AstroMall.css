@@ -1,0 +1,280 @@
+.astro_shop_contener {
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(90deg, #fff, #1722ee 50%);
+  border-radius: 20px;
+  padding: 61px 70px;
+  margin: 9px 0 15px;
+  box-shadow: 0 0 2px 2px #dadada;
+}
+
+.coming-soon-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  height: 400px;
+}
+
+.right_side_img {
+  background-color: rgb(255 255 255) !important;
+  border-radius: 50% !important;
+}
+
+.astromall_icon {
+  font-size: 30px;
+  font-weight: 900;
+  color: #ff005b;
+  line-height: 1.5;
+  text-align: center;
+  width: 220px;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid #ff005b;
+  text-transform: uppercase;
+  transform: rotate(348deg);
+}
+
+.right_side_img {
+  padding: 10px;
+}
+
+.astoShop_heading p {
+  font-size: 30px;
+  padding-top: 30px;
+}
+
+.search_box_astromall_new {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.search_box_astromall_new input {
+  width: 100%;
+  border-radius: 25px;
+  padding: 10px 55px 12px 30px;
+  border: none;
+  font-size: 16px;
+  box-shadow: 0 0 4px 2px #ccc;
+  outline: none;
+}
+
+.search_box_astromall_new i {
+  position: absolute;
+  top: 12px;
+  right: 25px;
+  font-size: 22px;
+  opacity: 1;
+}
+
+/* Manish */
+
+.active_class {
+  /* background-color: lightgray; */
+  color: #000;
+  font-weight: 700;
+}
+
+.astro_mall_card {
+  position: relative;
+  background-color: #fff;
+  box-shadow: 0 0 2px 2px #dedede;
+  border-radius: 15px;
+
+  margin-bottom: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+}
+
+.astro_image_card img {
+  height: 200px;
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.astro_image_card .bottom {
+  height: 100px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.653);
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.astro_heading {
+  position: absolute;
+  bottom: 0;
+  background-color: #fff;
+  margin: 0.4rem;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  min-height: 125px;
+  min-width: 96%;
+}
+
+.astro_heading p {
+  font-size: 14px;
+  color: gray;
+  text-align: center;
+}
+
+.astro_heading h5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.booking_now_box img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.booking_detail {
+  background-color: #f3f2f2;
+}
+
+.product_list_btn {
+  padding: 4px 21px;
+  border-radius: 7px;
+  background-color: var(--clr-primary);
+  color: #fff;
+  border: none;
+}
+
+.product_list_card {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  box-shadow: 0 0 2px 2px #dedede;
+  border-radius: 15px;
+  margin-bottom: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+}
+
+.product_list_card .product_body {
+  height: auto;
+  width: 100%;
+}
+
+.product_body .head {
+  height: 3rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.head .offer {
+  height: 100%;
+  width: 30%;
+  background-color: #000;
+  color: #fff;
+  border-top-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product_body .details {
+  height: auto;
+  width: 100%;
+}
+
+.details .image {
+  height: 9rem;
+  width: 100%;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+
+.details .image img {
+  height: 100%;
+  width: 45%;
+  border-radius: 50%;
+}
+
+.details .detail {
+  height: 3.5rem;
+  width: 100%;
+  padding: 0 0.8rem;
+  margin: 0;
+}
+
+.details .detail p,
+.details .detail h5 {
+  margin: 0;
+}
+
+.product_list_card .btn {
+  height: 3.5rem;
+  width: 100%;
+  background-color: blue;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  color: #fff;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product_list_card .btn:hover {
+  background-color: #3661bb;
+  transition: all 0.3s ease-in-out;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 580px) {
+  .astromall_icon {
+    font-size: 13px;
+    font-weight: 600;
+    width: 90px;
+    height: 90px;
+    border: 1px solid #ff005b;
+  }
+
+  .astoShop_heading p {
+    font-size: 16px !important;
+    padding-top: 30px !important;
+  }
+
+  .right_side_img {
+    padding: 10px;
+    height: 118px;
+  }
+
+  .astoShop_heading h1 {
+    font-size: 1.5rem;
+  }
+
+  .content_paddingg {
+    margin-top: 7%;
+  }
+  .filter_product {
+    padding-bottom: 5% !important;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 580px) {
+  #cart_container {
+    display: flex;
+    flex-direction: column !important;
+  }
+  .header {
+    width: 100% !important;
+  }
+  .item-details {
+    width: 100% !important;
+  }
+}

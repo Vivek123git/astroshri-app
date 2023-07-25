@@ -1,0 +1,66 @@
+.get_otp_btn {
+  background-color: var(--clr-primary);
+  border: none;
+  width: 100%;
+  margin-top: 5px;
+  padding: 11px 67px;
+  border-radius: 10px;
+  font-size: 18px;
+  /* font-weight: 500; */
+  box-shadow: 0 0 2px 2px #fff;
+  color: #fff 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* position: relative; */
+  color: #fff;
+  border-radius: 10px;
+}
+span.terms_condition {
+  color: #8c8080;
+  cursor: pointer;
+  text-decoration: underline;
+  color: var(--clr-primary);
+}
+.main_heading_mobile_number_registration {
+  text-align: center;
+  font-weight: 600;
+  color: #313131;
+  margin: 0;
+  padding: 12px 0;
+  border-bottom: 1px solid #ccc;
+  font-size: 18px;
+}
+.padding_desktop_view {
+  padding: 0 2px 8px;
+}
+.subheading_for_notification {
+  margin: 0;
+  font-size: 13px !important;
+  text-align: center !important;
+  padding: 7% 24% !important;
+  color: #525252 !important;
+  font-weight: 600 !important;
+}
+.MuiDialog-paperFullWidth {
+  background-color: #fff !important;
+  border-radius: 15px !important;
+}
+.react-tel-input .form-control {
+  width: 100% !important;
+}
+.phone_input_flag {
+  width: 16%;
+}
+@media only screen and (min-width: 301px) and (max-width: 760px) {
+  .mobile_input_login {
+    width: 100%;
+    float: right;
+  }
+}
+
+@media only screen and (min-width: 301px) and (max-width: 500px) {
+  .phone_input_flag {
+    width: 26% !important;
+  }
+}
